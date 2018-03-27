@@ -1,0 +1,11 @@
+[
+    {
+        "case" : "laplacianFoam"
+    },
+    {
+        "case" : "potentialFoam"
+    },
+    {
+        "case" : "scalarTransportFoam"
+    }
+]

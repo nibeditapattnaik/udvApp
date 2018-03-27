@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app = "petmodule">
+    <head>
+        <meta charset = "utf-8">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+        <title>udvApp</title>
+        
+        <script src = "script/angular.js"></script>
+        <script src = "randompetsajs.js"></script>
+        <link rel = "stylesheet" type = "text/css" href = "css/indexstyle.css">
+    </head>
+    <body ng-controller="petcontroller">
+        Hello
+
+      <table border=1>
+          <h1 ng-repeat="x in petData">{{x}}</h1>
+          <tr ng-repeat="data in petData">
+              <td>{{data.type}}</td>
+              <td>{{data.name}}</td>
+              <td>{{data.weight}}</td>
+              <td>{{data.likes}}</td>
+              <td><a href = "" ng-click="removeName(data)">REMOVE</a></td>
+          </tr>
+      </table>
+        
+    </body>
+</html> 

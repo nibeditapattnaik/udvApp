@@ -1,0 +1,8 @@
+[
+    {
+        "case" : "dsmcFoam"
+    },
+    {
+        "case" : "molecularDynamics"
+    }
+]

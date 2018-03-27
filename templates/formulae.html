@@ -1,0 +1,15 @@
+<div>Equation representation
+A central theme of the OpenFOAM design is that the solver applications, written using the OpenFOAM classes, have a syntax that closely resembles the partial differential equations being solved. For example the equation
+<br/>
+<h3>∂ρU –––--+ ∇ ∙ ϕU −  ∇ ∙μ∇U   = − ∇p ∂t</h3><br/>
+is represented by the code
+<br/>
+    solve 
+    ( 
+        fvm::ddt(rho, U) 
+      + fvm::div(phi, U) 
+      - fvm::laplacian(mu, U) 
+        == 
+      - fvc::grad(p) 
+    );
+</div>

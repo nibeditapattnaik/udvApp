@@ -1,0 +1,29 @@
+[
+    {
+        "case" : "coalChemistryFoam"
+    },
+    {
+        "case" : "icoUncoupledKinematicParcelDyMFoam"
+    },
+    {
+        "case" : "icoUncoupledKinematicParcelFoam"
+    },
+    {
+        "case" : "MPPICFoam"
+    },
+    {
+        "case" : "reactingParcelFilmFoam"
+    },
+    {
+        "case" : "reactingParcelFoam"
+    },
+    {
+        "case" : "simpleReactingParcelFoam"
+    },
+    {
+        "case" : "DPMFoam"
+    },
+    {
+        "case" : "sprayFoam"
+    }
+]

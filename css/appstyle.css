@@ -1,0 +1,43 @@
+#heading{
+    font-family: 'Times New Roman', Times, serif;
+    font-size : 20px;
+    text-align: center;
+    color:aliceblue;
+    background-color:blue; 
+    overflow: none;
+}
+.navbar-fixed-bottom{
+    font-family: 'Times New Roman', Times, serif;
+    height: 4px;
+    padding-bottom: 1px;
+    text-align: center;
+    color:aliceblue;
+    background-color:rgb(181, 181, 255); 
+    overflow: none;
+}
+#toolbar{
+    margin-top: 10px;
+}
+.sidebar a{
+    display: block;
+    margin-top: 50px;
+    text-align: center;
+    padding: 3px;
+    font-size: 20px;
+    text-decoration: none;
+} 
+.sidebar{
+    height: 100vh;
+    background-color: rgb(201, 225, 248);
+}
+.wr{
+    font-size: 25px;
+    margin-top: 150px;
+}
+.border{
+ height: 300px; 
+ border:ridge;
+}
+.fd{
+    font-size: 25px;
+}

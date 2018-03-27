@@ -1,0 +1,14 @@
+[
+    {
+        "type": "cat",
+        "name": "Park",
+        "weight" : 7,
+        "likes" : ["sleeping","eating butter"]
+    },
+    {
+        "type": "dog",
+        "name": "Tom",
+        "weight" : 15,
+        "likes" : ["sleeping","eating","walking"]
+    }
+]

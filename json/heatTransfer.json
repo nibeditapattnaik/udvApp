@@ -1,0 +1,20 @@
+[
+    {
+        "case" : "buoyantBoussinesqPimpleFoam"
+    },
+    {
+        "case" : "buoyantBoussinesqSimpleFoam"
+    },
+    {
+        "case" : "buoyantPimpleFoam"
+    },
+    {
+        "case" : "buoyantSimpleFoam"
+    },
+    {
+        "case" : "chtMultiRegionFoam"
+    },
+    {
+        "case" : "chtMultiRegionSimpleFoam"
+    }
+]

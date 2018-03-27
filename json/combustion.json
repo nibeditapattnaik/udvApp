@@ -1,0 +1,20 @@
+[
+    {
+        "case" : "chemFoam"
+    },
+    {
+        "case" : "engineFoam"
+    },
+    {
+        "case" : "fireFoam"
+    },
+    {
+        "case" : "PDRFoam"
+    },
+    {
+        "case" : "reactingFoam"
+    },
+    {
+        "case" : "XiFoam"
+    }
+]

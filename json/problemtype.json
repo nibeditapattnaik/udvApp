@@ -1,0 +1,53 @@
+[
+    {
+        "problemtype" : "DNS",
+        "algorithm" : "simpleFoam",
+        "caseType" : "pitzDaily"
+    },
+    {
+        "problemtype" : "IO",
+        "algorithm" : "simpleFoam",
+        "caseType" : "pitzDaily"
+    },
+    {
+        "problemtype" : "basic",
+        "algorithm" : "simpleFoam",
+        "caseType" : "pitzDaily"
+    },
+    {
+        "problemtype" : "combustion"
+    },
+    {
+        "problemtype" : "compressible"
+    },
+    {
+        "problemtype" : "discreteMethods"
+    },
+    {
+        "problemtype": "electromagnetics"
+    },
+    {
+        "problemtype": "financial"
+    },
+    {
+        "problemtype": "heatTransfer"
+    },
+    {
+        "problemtype": "incompressible"
+    },
+    {
+        "problemtype": "lagrangian"
+    },
+    {
+        "problemtype": "mesh"
+    },
+    {
+        "problemtype": "multiphase"
+    },
+    {
+        "problemtype": "resources"
+    },
+    {
+        "problemtype": "stressAnalysis"
+    }
+]

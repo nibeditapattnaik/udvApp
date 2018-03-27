@@ -1,0 +1,56 @@
+[
+    {
+        "case" : "cavitatingFoam"
+    },
+    {
+        "case" : "compressibleInterDYMFoam"
+    },
+    {
+        "case" : "compressibleInterFoam"
+    },
+    {
+        "case" : "compressibleMultiphaseInterFoam"
+    },
+    {
+        "case" : "driftFluxFoam"
+    },
+    {
+        "case" : "interDYMFoam"
+    },
+    {
+        "case" : "interFoam"
+    },
+    {
+        "case" : "interMixingFoam"
+    },
+    {
+        "case" : "interPhaseChangeDYMFoam"
+    },
+    {
+        "case" : "interPhaseChangeFoam"
+    },
+    {
+        "case" : "multiphaseEulerFoam"
+    },
+    {
+        "case" : "multiphaseInterDYMFoam"
+    },
+    {
+        "case" : "multiphaseInterFoam"
+    },
+    {
+        "case" : "potentialFreeSurfaceDYMFoam"
+    },
+    {
+        "case" : "reactingMultiphaseEulerFoam"
+    },
+    {
+        "case" : "reactingTwoPhaseEulerFoam"
+    },
+    {
+        "case" : "twoLiquidMixingFoam"
+    },
+    {
+        "case" : "twoPhaseEulerFoam"
+    }
+]

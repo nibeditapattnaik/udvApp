@@ -1,0 +1,29 @@
+[
+    {
+        "case" : "rhoCentralDyMFoam"
+    },
+    {
+        "case" : "rhoCentralFoam"
+    },
+    {
+        "case" : "rhoPimpleDyMFoam"
+    },
+    {
+        "case" : "rhoPimpleFoam"
+    },
+    {
+        "case" : "rhoPorousSimpleFoam"
+    },
+    {
+        "case" : "rhoSimpleFoam"
+    },
+    {
+        "case" : "sonicDyMFoam"
+    },
+    {
+        "case" : "sonicFoam"
+    },
+    {
+        "case" : "sonicLiquidFoam"
+    }
+]

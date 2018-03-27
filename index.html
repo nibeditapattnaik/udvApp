@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html  ng-app = "appmodule" >
+    <head>
+        <meta charset = "utf-8">
+        <meta name = "viewport" content = "width = device-width initial-scale = 1">
+        <title>udvApp</title>
+        
+        <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+        <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+        <script src = "script/problemtype.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel = "stylesheet" type = "text/css" href = "css/appstyle.css">
+    </head>
+   
+    <body>
+            <div class = "container-fluid">
+            <div class = "row">
+                <div class="col-sm-12 col-md-12 col-lg-12" id = "heading">
+                        <strong>UDV Product</strong> 
+                </div>
+            </div>
+           
+            <div class = "row">
+                <div class="col-sm-12 col-md-12 col-lg-12" id = "toolbar">
+                    <center>
+                        Tool Bar
+                    </center>
+                </div>
+            </div>
+            <hr>
+            
+            <div class = "row">
+
+                <!--<a href="#!/home">home</a><br>
+                <a href="#!/about">about</a><br>
+                            <!--<h1 ng-repeat="x in barData">{{x}}</h1>-->
+                        <div class = "col-lg-2 col-md-2 col-sm-2 sidebar" ng-controller="appController">
+                            <div ng-repeat="data in barData">
+                                <a href=#!/{{data.row}}>{{data.row}}</a><br>
+                            </div>
+                        </div>
+                        
+                             <!--<div ng-repeat="data in barData">
+                                <a href="#">{{data.row}}</a><br>
+                             </div>
+                        </div>
+                            <!--<h1 ng-repeat="x in appData">{{x}}</h1>-->
+                        <div class = "col-lg-1 col-md-1 col-sm-1"></div>
+                        <div class = "col-lg-8 col-md-9 col-sm-9">
+                                <div class = "row">
+                                    <div ng-view></div>
+                                </div>
+                        </div>
+                    </div>
+             <div class = "row navbar navbar-fixed-bottom">
+                    <div class="col-sm-12 col-md-12 col-lg-12" >
+                        <center>
+                           <h4><a heref = "http://www.udvavisk.com">www.udvavisk.com</a></h4>
+                           <h6>copyrights by udvavisk</h6>
+                        </center>
+                    </div>
+                </div>
+            </div>
+        </body>
+    
+    <!--<body  ng-app = "appmodule" ng-controller="appcontroller">
+  
+      <table border=1>
+          <h1 ng-repeat="x in appData">{{x}}</h1>
+          <tr ng-repeat="data in appData">
+              <td>{{data.problemtype}}</td>
+              <td>{{data.algorithm}}</td>
+              <td>{{data.caseType}}</td>
+              <td><a href = "" ng-click="removeName(data)">REMOVE</a></td>
+          </tr>
+      </table>
+        
+    </body>-->
+   
+</html>

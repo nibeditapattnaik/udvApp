@@ -1,0 +1,38 @@
+[
+    {
+        "case" : "adjointShapeOptimizationFoam"
+    },
+    {
+        "case" : "boundaryFoam"
+    },
+    {
+        "case" : "icoFoam"
+    },
+    {
+        "case" : "nonNewtonianIcoFoam"
+    },
+    {
+        "case" : "pimpleDyMFoam"
+    },
+    {
+        "case" : "pimpleFoam"
+    },
+    {
+        "case" : "pisoFoam"
+    },
+    {
+        "case" : "porousSimpleFoam"
+    },
+    {
+        "case" : "shallowWaterFoam"
+    },
+    {
+        "case" : "simpleFoam"
+    },
+    {
+        "case" : "SRFPimpleFoam"
+    },
+    {
+        "case" : "SRFSimpleFoam"
+    }
+]

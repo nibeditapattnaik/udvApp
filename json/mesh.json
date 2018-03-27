@@ -1,0 +1,20 @@
+[
+    {
+        "case" : "blockMesh"
+    },
+    {
+        "case" : "foamyHexMesh"
+    },
+    {
+        "case" : "foamyQuadMesh"
+    },
+    {
+        "case" : "moveDynamicMesh"
+    },
+    {
+        "case" : "refineMesh"
+    },
+    {
+        "case" : "snappyHexMesh"
+    }
+]
