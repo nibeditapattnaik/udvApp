@@ -30,28 +30,21 @@
             <hr>
             
             <div class = "row">
-
-                <!--<a href="#!/home">home</a><br>
-                <a href="#!/about">about</a><br>
-                            <!--<h1 ng-repeat="x in barData">{{x}}</h1>-->
-                        <div class = "col-lg-2 col-md-2 col-sm-2 sidebar" ng-controller="appController">
-                            <div ng-repeat="data in barData">
-                                <a href=#!/{{data.row}}>{{data.row}}</a><br>
+                    <div class = "col-lg-2 col-md-2 col-sm-2" ng-controller="pitzController">
+                            <div ng-repeat="data in pitzData">
+                                <div class = "border1" >
+                                <div id="pitztxt"><a href=#!/{{data.row}} >{{data.row}}</a><br></div></div>
                             </div>
-                        </div>
-                        
-                             <!--<div ng-repeat="data in barData">
-                                <a href="#">{{data.row}}</a><br>
-                             </div>
-                        </div>
-                            <!--<h1 ng-repeat="x in appData">{{x}}</h1>-->
-                        <div class = "col-lg-1 col-md-1 col-sm-1"></div>
-                        <div class = "col-lg-8 col-md-9 col-sm-9">
-                                <div class = "row">
-                                    <div ng-view id="vw"></div>
-                                </div>
+                    </div>
+            <div class = "col-lg-1 col-md-1 col-sm-1"></div>
+            <div class = "col-lg-8 col-md-9 col-sm-9">
+                    <div class = "row">
+                        <div ng-view id="vw">
+                                
                         </div>
                     </div>
+            </div>
+            </div>
              <div class = "row navbar navbar-fixed-bottom">
                     <div class="col-sm-12 col-md-12 col-lg-12" >
                         <center>
@@ -61,20 +54,5 @@
                     </div>
                 </div>
             </div>
-        </body>
-    
-    <!--<body  ng-app = "appmodule" ng-controller="appcontroller">
-  
-      <table border=1>
-          <h1 ng-repeat="x in appData">{{x}}</h1>
-          <tr ng-repeat="data in appData">
-              <td>{{data.problemtype}}</td>
-              <td>{{data.algorithm}}</td>
-              <td>{{data.caseType}}</td>
-              <td><a href = "" ng-click="removeName(data)">REMOVE</a></td>
-          </tr>
-      </table>
-        
-    </body>-->
-   
+        </body>   
 </html>
